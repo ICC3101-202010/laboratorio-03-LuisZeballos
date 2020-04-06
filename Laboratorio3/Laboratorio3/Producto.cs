@@ -37,5 +37,9 @@ namespace Laboratorio3
         {
             return Stock;
         }
+        public void Compra()
+        {
+            Stock -= 1;
+        }
     }
 }

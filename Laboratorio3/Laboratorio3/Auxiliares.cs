@@ -30,5 +30,17 @@ namespace Laboratorio3
         {
             return job;
         }
+        public void Changejob(string newjob)
+        {
+            job = newjob;
+        }
+        public void ChangeSalary(int newsalary)
+        {
+            Salary = newsalary;
+        }
+        public void ChangeHrs(int newHrs)
+        {
+            hrs = newHrs;
+        }
     }
 }
